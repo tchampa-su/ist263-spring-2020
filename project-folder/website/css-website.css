@@ -1,3 +1,8 @@
+title{
+    border-style: solid;
+    border-color: rgb(105, 85, 85);
+    border-width: 3px;
+}
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
     background-color:rgb(189, 127, 103);
@@ -10,4 +15,11 @@ section{
     font-size: 1.3em;
     border-style:solid; 
     border-width: medium;
+    padding-right: 1em;
+}
+p{
+    margin: 30px;
+}
+img{
+    border: rgb(105, 85, 85);
 }
