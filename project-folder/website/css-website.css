@@ -1,25 +1,38 @@
-title{
-    border-style: solid;
-    border-color: rgb(105, 85, 85);
-    border-width: 3px;
-}
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:rgb(189, 127, 103);
+    background-color:lightgray;
 }
 h1{
     font-family: 'Times New Roman', Times;
+
 }
 section{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
     border-style:solid; 
     border-width: medium;
-    padding-right: 1em;
+    padding-right: 20px;
 }
 p{
     margin: 30px;
 }
-img{
-    border: rgb(105, 85, 85);
+article{
+    background-color: rgb(207, 198, 198);
+}
+/* add .row and .col* classes to control the flexbox layout then apply them 
+to HTML container elements like section and article.*/
+.row {
+    display: flex;
+}
+.col {
+    flex:1;
+    margin: 1em;
+}
+.col-2 {
+    flex:2;
+    margin: 1em;
+}
+nav{
+    margin: 1em;
+    padding: 1em;
 }
